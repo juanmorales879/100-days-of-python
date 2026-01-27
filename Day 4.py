@@ -33,6 +33,7 @@ ascii_art = [
 
 ai_choice = random.randint(0,2)
 user_choice = int(input("What do you choose: 0 for Rock, 1 for Paper or 2 for Scissors? "))
+
 if user_choice < 0 or user_choice > 2:
     print("Invalid response! Out of range!")
     sys.exit(0)
